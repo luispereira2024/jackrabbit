@@ -28,7 +28,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>31</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.apache.jackrabbit</groupId>
@@ -52,7 +52,7 @@
 
   <properties>
     <test.opts.memory>-Xmx256m</test.opts.memory>
-    <test.opts.modules />
+    <test.opts.modules/>
     <test.opts>${test.opts.modules} ${test.opts.coverage} ${test.opts.memory} -enableassertions</test.opts>
     <!-- OAK version used in componenents that *implement* oak-jackrabbit-api -->
     <oak-jackrabbit-api.version.implemented>1.60.0</oak-jackrabbit-api.version.implemented>
@@ -560,7 +560,7 @@
       <dependency>
         <groupId>org.apache.derby</groupId>
         <artifactId>derby</artifactId>
-        <version>10.15.2.0</version>
+        <version>10.17.1.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.derby</groupId>
